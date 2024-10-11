@@ -1,0 +1,37 @@
+  form > div{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+  }
+  
+  form img{
+    width: 200px;
+    height: 200px;
+
+  }
+  
+  form div:first-child{
+    align-items: center;
+  }
+  
+  form div:first-child input{
+    display: none;
+  }
+  
+  form div:first-child label{
+    background: #1F5F74;
+    color: white;
+    padding: 6px 20px;
+    cursor: pointer;
+  
+  }
+  
+  form button{
+    padding: 8px 20px;
+    border: 1px solid darkgreen;
+    width: 50%;
+    background: #36551F;
+    color: white;
+    border-radius: 3px;
+  }

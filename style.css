@@ -1,0 +1,69 @@
+@font-face {
+    font-family: 'fuente1';
+    src: url(Recursos/fuente/Nunito_Sans/NunitoSans-VariableFont_YTLC\,opsz\,wdth\,wght.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'fuente1', bold;
+    font-weight: 700;
+}
+
+body {
+    background: url(Recursos/img/bg.jpeg) fixed no-repeat;
+    color: #fff;
+}
+
+.form-registro {
+    align-items: center;
+    background: #121212;
+    max-width: 500px;
+    padding: 10px;
+    margin-top: 100px;
+}
+
+input::placeholder {
+    text-align: center;
+}
+
+input {
+    outline: none;
+    text-align: center;
+}
+
+.inputs1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.input2, .input1 {
+    width: 200px;
+    padding-left: 45px;
+}
+
+.inputs1 input{
+    width: 200px;
+    height: 30px;
+    border-radius: 8px;
+    border: 2px solid black;
+}
+
+.inputs2 input {
+    width: 400px;
+    height: 30px;
+    border-radius: 8px;
+    border: 2px solid black;
+}
+
+.input3, .input4, .input5, .input6, .input7{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.input7 input{
+    background: rgb(15, 132, 179);
+    height: 60px;
+    color: #fff;
+}
